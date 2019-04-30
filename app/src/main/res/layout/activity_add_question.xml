@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AddQuestionActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolba"
+        app:titleTextColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="?attr/colorAccent"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="Add Question">
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardQ"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edQuestion"
+                android:background="@color/white"
+                android:singleLine="false"
+                android:hint="Your Question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:id="@+id/select_image_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/dotted_image"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/image_object"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/noimage_profile"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layerType="software"
+            android:src="@drawable/ic_photo_camera" />
+
+        <TextView
+            android:id="@+id/tv_take"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ambil Gambar" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/white"
+            android:background="@color/colorAccent"
+            android:text="SEND"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

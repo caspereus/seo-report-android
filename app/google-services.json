@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "635509538935",
+    "firebase_url": "https://mamamkuy-ebf01.firebaseio.com",
+    "project_id": "mamamkuy-ebf01",
+    "storage_bucket": "mamamkuy-ebf01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635509538935:android:c33331ac39f4a0d7",
+        "android_client_info": {
+          "package_name": "studio.tay.reporting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635509538935-dplgmg8443avsbaj1um9u36d5jev0mro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "studio.tay.reporting",
+            "certificate_hash": "611638efff205114df3dec643b2f5247ffb4e262"
+          }
+        },
+        {
+          "client_id": "635509538935-mustrti3uc7903qf7nh53t6m2pobq8dp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvi8sTRKJtdQp1LZZ2Jcnm6fbHXvMcmgI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635509538935-1l2tkasj9advngq2aens808ri2s23ogu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

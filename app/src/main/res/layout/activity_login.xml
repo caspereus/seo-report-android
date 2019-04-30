@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/background"
+    tools:context=".activity.LoginActivity">
+
+    <ImageView
+        android:src="@drawable/logo3"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        app:met_underlineColor="@color/colorAccent"
+        app:met_baseColor="@color/black"
+        app:met_primaryColor="@color/colorAccent"
+        android:id="@+id/emailField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:met_floatingLabel="normal"
+    />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        app:met_underlineColor="@color/colorAccent"
+        app:met_baseColor="@color/black"
+        app:met_primaryColor="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/passwordField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:met_floatingLabel="normal"
+        />
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:text="MASUK"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="Masuk untuk mendapatkan informasi website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
